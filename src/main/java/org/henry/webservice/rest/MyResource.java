@@ -16,9 +16,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Root resource (exposed at "myresource" path)
- */
 @SuppressWarnings("UnresolvedRestParam")
 //@Singleton
 @Path("myresource")
@@ -128,4 +125,3 @@ public class MyResource {
         return Response.ok(response).build();
     }
 }
-

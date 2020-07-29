@@ -1,4 +1,5 @@
 <html>
+
 <head>
     <script>
         let sseListener = new EventSource('http://localhost:8080/java-ee-webservices/webapi/sse/guest/Kafuuma/salute')
@@ -33,3 +34,4 @@
 <p><div id="sseOutput"/>
 </body>
 </html>
+
